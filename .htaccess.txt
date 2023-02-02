@@ -1,0 +1,4 @@
+options -MuiltiViews
+RewrightEngine on
+RewrightCond %{REQUEST_FILNAME} !if
+Rewright ^ index.html [QSA,L]
